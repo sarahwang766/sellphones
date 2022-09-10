@@ -1,0 +1,18 @@
+.register-container{
+    text-align: center;
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sellphones-title{
+    font-size: 3rem;
+    color: #40a9ff;
+    margin: 20px auto;
+}

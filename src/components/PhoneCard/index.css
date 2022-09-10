@@ -1,0 +1,33 @@
+.phone-card{
+    display: grid;
+    grid-template-columns: 14.5rem;
+    grid-template-rows:250px 80px 70px;
+    grid-template-areas: 'image' 'title' 'price';
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: roboto;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.phone-card:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+}
+.phone-image{
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.phone-title{
+    grid-area: title;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.phone-price {
+    grid-area: price;
+    justify-self: center;
+    align-self: center;
+}

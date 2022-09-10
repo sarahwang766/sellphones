@@ -1,0 +1,129 @@
+.login-wrapper{
+  margin: 0 auto;
+  min-width: 1400px;
+  /* max-width: 1920px; */
+  display: grid;
+  grid-template-columns: 55% 45%;
+  align-content: stretch;
+}
+.card-wrapper{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.card-style{
+  padding: 20% 10%;
+  height: 100vh;    
+    min-width: 560px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#videoBG {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-size: cover; */
+    transform: rotateY(180deg);
+}
+
+
+/* @media (min-aspect-ratio: 16/9) {
+  #viedoBG{
+    width:100%;
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #viedoBG{
+    width:auto;
+    height:100%;
+  }
+} */
+
+/* @media (max-width: 767px) {
+  #videoBG{
+    display: none;
+  }
+  body {
+    background: url(".jpg");
+    background-size: cover;
+  }
+} */
+
+
+/* .card-wrapper-sub {
+    display: table-cell;
+    vertical-align: middle;
+} */
+
+/* .card-wrapper-sub-sub {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: rgb(255, 253, 253);
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid rgb(178, 216, 249);
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 1s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #f6eeee;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 0.5s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  top: 0;
+  transform: translate(0, -100%);
+}

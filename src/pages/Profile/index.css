@@ -1,0 +1,160 @@
+.profile-wrapper{
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.tab-content-wrapper {
+    padding:50px 100px;
+    align-items: center;
+    text-align: center;
+
+}
+/* 
+.site-card-border-less-wrapper {
+    background: #ececec;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.back{
+    color:orange;
+    font-size:bold;
+    padding-top: 20px;
+    padding-left: 50px;
+    align-items: left;
+    text-align: left;
+}
+
+:global(.ant-card-body ){
+   padding-right:10% !important;
+   padding-left:10% !important;
+}
+
+:global(.ant-tabs-tab-, .ant-tabs-tab-active){
+    line-height: 100px !important;
+    margin-bottom: 0 !important;
+}
+
+.theme{
+    color: rgb(235, 130, 67);
+    line-height: 100px;
+    margin-bottom: 0;
+}
+
+.input {
+    float: right;
+    width: 200px;
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    margin-right: 38%;
+    margin-left: 38%;
+}
+
+.container1{
+    text-align: left;
+    align-items: left;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.container2{
+    text-align: center;
+    align-items: center;
+    margin: 5%;
+}
+
+.container3{
+    text-align: left;
+    align-items: left;
+    margin: 5%;
+}
+
+.login_form_button {
+    width: 100%;
+}
+
+.add_phone_button {
+    width: 200px;
+    float: left;
+    display: block;
+    margin:0;
+}
+
+.disable{
+    color: red;
+}
+
+.enable{
+    color: green;
+}
+
+.top {
+    margin: 0 40px;
+    background: rgb(255, 255, 255, 0.91);
+    filter: drop-shadow(rgba(0, 0, 0, 0.15) 0px 3px 6px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.title {
+    color: #1890ff;
+    line-height: 100px;
+    margin-bottom: 0;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.sign {
+    margin-bottom: 0;
+}
+
+.log {
+    margin-bottom: 0;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.icon {
+    color: #1890ff !important;
+    margin-right: 5px;
+}
+
+.middle {
+    width: 30%;
+}
+
+.select {
+    float: left;
+    margin-top: 11px !important;
+}
+
+.slider {
+    width: 50%;
+    float: right;
+    margin-right: 30px !important;
+}
+
+.price {
+    text-align: center;
+} */

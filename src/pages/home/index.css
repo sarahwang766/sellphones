@@ -1,0 +1,44 @@
+.homepage-nosearch-wrapper {
+    background-color: #ebecee;
+}
+
+.homepage-nosearch-content{
+    margin: 0 auto;
+    min-width: 1400px;
+    max-width: 1920px;
+}
+/* .sold-out-soon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+.soldout-title {
+    /* background-color: #d40210; */
+    width: 100%;
+    height: 5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-left: 4rem;
+    border-bottom: 2px solid #888888;
+}
+
+.bestsellers-title {
+    /* border: 2px solid #d40210; */
+    width: 8rem;
+    height: 50px;
+}
+
+.phone-list{
+    padding: 4rem 1rem 6rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.phone-item-card {
+    width: 14.5rem;
+    height: 400px;
+    border: 1px solid #888888;
+}
